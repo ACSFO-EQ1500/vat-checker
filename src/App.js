@@ -41,7 +41,7 @@ function App() {
     setResult(null);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/vat-checker", {
+      const response = await fetch("https://vat-api-x33m.onrender.com/vat-checker", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
